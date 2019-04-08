@@ -1,5 +1,12 @@
-# Django Auth Tutorial source code
+# A basic Auth system using MongoDB database and Django.
 
-- [Part 1: Login/Logout](https://wsvincent.com/django-user-authentication-tutorial-login-and-logout/)
-- [Part 2: Signup](https://wsvincent.com/django-user-authentication-tutorial-signup/)
-- [Part 3: Password Reset](https://wsvincent.com/django-user-authentication-tutorial-password-reset/)
+# How to run the file
+1) Run manage.py makemigrations <app_name> followed by manage.py migrate (ONLY the first time to create collections in mongoDB).
+2) You're all set now.
+3) Run the mongo server on your port.
+       >>> mongo
+4) Now, type "python manage.py runserver" and you're all set.       
+       
+       
+
+
